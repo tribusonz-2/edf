@@ -40,6 +40,18 @@ plot [-2:4] [-4:4] invelem(x), linvelem(x)
 
 ![invelem_plot](invelem_plot.png)
 
-　[Wolfram alpha](https://www.wolframalpha.com/input?i2d=true&i=Divide%5BPower%5B2%2Cx%5D%2C2%5D-x%5C%2844%29+log2%5C%2840%291%2Bx%5C%2841%29-x)に尋ねてみると，高次な多価関数であるためか，リーマン・ゼータ関数のクリティカル・ラインで確認できるような(，かつシンプルな)パラメトリック曲線を持つことが分かる．  
+　以下は変数の単射性をパラメトリック曲線で示したものである．高次な多価関数であるためか，リーマン・ゼータ関数のクリティカル・ラインで確認できるような(，かつシンプルな)パラメトリック曲線を持つことが分かる．  
+
+```gnuplot
+set parametric
+set size ratio -1
+set trange [-1:3]
+log2(x) = log(x)/log(2)
+linvelem(x) = log2(1+x)-x
+invelem(x) = 2**x/2-x
+plot invelem(t),linvelem(t)
+```
+![invelem_parametric](invelem_parametric.png)
+
 
 (執筆中)  
