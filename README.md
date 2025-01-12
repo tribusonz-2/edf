@@ -1,6 +1,4 @@
-# 分解公式 (Decomposition Formula)
-
-分解公式集
+# 指数分解公式 (Exponential Decomposition Formula)
 
 [はじめに](preface.md)
 1. [指数関数](1_exp.md)
