@@ -19,9 +19,18 @@ $$\log_2(\left\lfloor 1 \right\rfloor)=0$$
 $$\log_2(1+x)-x\quad \text{But}\, 0 \leq x \leq 1$$
  
 　として確認できる．  
+
 　“逆元の対数”より正規化した累乗根 $\sqrt{1+3x}-1$ を差し引くことを考えると，以下の式を得る．  
 
 $$\log_2(1+x) - (\sqrt{1+3x}-1)\quad \text{But}\, 0 \leq x \leq 1$$
+
+　gnuplotでプロットすると，以下を得られる．  
+
+```gnuplot
+log2(x) = log(x)/log(2)
+f(x) = log2(1+x)-(sqrt(1+3*x)-1)
+plot [0:1] f(x)
+```
 
 ![power_root_of_log](power_root_of_log.png)
 
