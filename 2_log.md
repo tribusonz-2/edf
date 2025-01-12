@@ -40,7 +40,7 @@ plot [-2:4] [-4:4] invelem(x), linvelem(x)
 
 ![invelem_plot](invelem_plot.png)
 
-　以下は変数の単射性をパラメトリック曲線で示したものである．高次な多価関数であるためか，リーマン・ゼータ関数のクリティカル・ラインで確認できるような(，かつシンプルな)パラメトリック曲線を持つことが分かる．  
+　以下は変数の単射性をパラメトリック曲線で示したものである．高次 *high powerwed* な多価関数 *multi-valued function* であるためか，リーマン・ゼータ関数 *riemann zeta function* のクリティカル・ライン *critical line* で確認できるような(，かつシンプルな)パラメトリック曲線を持つことが分かる．  
 
 ```gnuplot
 set parametric
@@ -53,5 +53,6 @@ plot invelem(t),linvelem(t)
 ```
 ![invelem_parametric](invelem_parametric.png)
 
+　多価関数の話題は指数には変数の現れとして散見されようにも，スフィア *sphere* がないため，さも外野の意見のようになってしまう．一方で対数では話題としててんこ盛り状態で，解析関数としても議論を持つようになる．  
 
 (執筆中)  
