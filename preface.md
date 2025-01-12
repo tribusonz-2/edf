@@ -7,7 +7,7 @@
 
 　`Ruby`で`map`を使い、これを示す。`map`は昔からあるメソッドであるが，最新の`Python`でもイテレーション機能として採用されている。  
 
-```
+```Ruby
 # t1: 0.0 <= x <= 1.0
 pp t1 = (0..10).step(1).map{|x| x = x/10.0; Math.exp(x * Math.log(2))}
 #=> [1.0,
@@ -25,7 +25,7 @@ pp t1 = (0..10).step(1).map{|x| x = x/10.0; Math.exp(x * Math.log(2))}
 
 　このような特性を持つなら，$1 \leq x \leq 2, 2 \leq x \leq 4, 4 \leq x \leq 8\ldots$は倍率の関係に有効である。
 
-```
+```Ruby
 # t2: 1.0 <= x <= 2.0
 pp t2 = (10..20).step(1).map{|x| x = x/10.0; Math.exp(x * Math.log(2))}
 #=> [2.0,
@@ -71,7 +71,7 @@ pp t4 = (40..80).step(4).map{|x| x = x/10.0; Math.exp(x * Math.log(2))}
 
 　ただし分解率 *decomposition rate* はこれに及ばない。基数が重なるにつれ多価性はどんどん相関しなくなる。解析学の見る尺度を変えれば，これは悪条件 *ill-conditioned* に当てはまる。
 
-```
+```Ruby
 # [Check Decomposition Rate for Relationship]
 p t1.zip(t2).map{|a, b| a / b}
 #=> [0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5]
@@ -105,7 +105,7 @@ pp t1.zip(t4).map{|a, b| a / b}
 
 　基数で割ると，相関は単射性 *injection* よりもむしろ倍率による傾斜傾向があることが分かる。
 
-```
+```Ruby
 # [Check Decomposition Rate for radix]
 pp t2.map{|x| 2 / x}
 #=> [1.0,
@@ -149,7 +149,7 @@ pp t4.map{|x| 16 / x}
 
 　どうしてこうなのか，主観を変えて剰余から見てみる。基数によって分解能に従っているのは明らかなのだから，基数の商と剰余の関係も成り立つはずである。
 
-```
+```Ruby
 # [Check Decomposition Rate for divmod]
 
 pp t2.map{|x| 2.divmod(x)}
@@ -202,6 +202,9 @@ pp t4.map{|x| 16.divmod(x)}
 |基数|xとの相補|xの最大公約数と最小公倍数|
 |近接整数|床関数|天井関数|
 |分解公式|分解能と分解率|商と剰余|
+|根|$\log(\left\lfloor 1 \right\rfloor)=0$|$e^{\left\lceil 0 \right\rceil}\therefore\phi$|
+
+　関数特性が面白いほど相反な関係であるのが分かるだろうか。対数にはないものは指数にはあって,逆に指数にはないものは対数にはあるのである。例えば、対数には根があるが、指数にはない。
 
 　ちなみに，ここで述べたものは指数関数の章で詳しく述べる天井行列式 *ceiling determinant* を投射的に解析したものである。だとすれば，対数では床行列式などというのがあるのではないかと勝手に判断してしまいがちだが，それはない。もし仮にあったとしても“天井行列式の対数”というべきだろう。  
 
