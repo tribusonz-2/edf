@@ -42,7 +42,7 @@ plot [-2:4] [-4:4] invelem(x), linvelem(x)
 
 ![invelem_plot](invelem_plot.png)
 
-　以下は変数の単射性をパラメトリック曲線で示したものである．高次 *high powerwed* な多価関数 *multi-valued function* であるためか，リーマン・ゼータ関数 *riemann zeta function* のクリティカル・ライン *critical line* で確認できるような(，かつシンプルな)パラメトリック曲線を持つことが分かる．  
+　以下は変数の単射性をパラメトリック曲線で示したものである．高次 *high powered* な多価関数 *multi-valued function* であるためか，リーマン・ゼータ関数 *riemann zeta function* のクリティカル・ライン *critical line* で確認できるような(，かつシンプルな)パラメトリック曲線を持つことが分かる．  
 
 ```gnuplot
 set parametric
