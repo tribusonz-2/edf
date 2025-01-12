@@ -23,7 +23,7 @@ $$\log_2(1+x)-x\quad \text{But}\, 0 \leq x \leq 1$$
 
 $$\log_2(1+x) - (\sqrt{1+3x}-1)\quad \text{But}\, 0 \leq x \leq 1$$
 
-"[power_root_of_log](power_root_of_log.png)
+![power_root_of_log](power_root_of_log.png)
 
 　この解は0を連続しないため，累乗根を積分に持つことが分かる．対数の根は積分によるのだろう．  
 　逆元の主値は実数全体で一価な負の値であり，対数逆元の主値は実数全体で一価な正の値である．特性とも言えるこれはL.オイラー *l. euler* のガンマ積分 *gamma integral* に類似した特徴がある．また，各々主値をフォーカスしてプロットしてみると，三角関数 *trigonometric function* で見受けるような相対性を確認できる．  
