@@ -33,6 +33,6 @@ plot [-2:4] [-4:4] invelem(x), linvelem(x)
 
 ![invelem_plot](invelem_plot.png)
 
-　[Wolfram alpha](https://www.wolframalpha.com/input?i2d=true&i=Divide%5BPower%5B2%2Cx%5D%2C2%5D-x%5C%2844%29+log2%5C%2840%291%2Bx%5C%2841%29-x)に尋ねてみると，高次な多価関数であるためか，リーマン・ゼータ関数のクリティカル・ラインで確認できるようなパラメトリック曲線を持つことが分かる。  
+　[Wolfram alpha](https://www.wolframalpha.com/input?i2d=true&i=Divide%5BPower%5B2%2Cx%5D%2C2%5D-x%5C%2844%29+log2%5C%2840%291%2Bx%5C%2841%29-x)に尋ねてみると，高次な多価関数であるためか，リーマン・ゼータ関数のクリティカル・ラインで確認できるような(、かつシンプルな)パラメトリック曲線を持つことが分かる。  
 
 (執筆中)  
