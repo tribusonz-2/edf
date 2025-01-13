@@ -24,7 +24,7 @@ pp t1 = (0..10).step(1).map{|x| x = x/10.0; Math.exp(x * Math.log(2))}
 #=>  2.0]
 ```
 
-　このような特性を持つなら，$1 \leq x \leq 2, 2 \leq x \leq 4, 4 \leq x \leq 8\ldots$は倍率の関係に有効である．
+　このような特性を持つなら， $1 \leq x \leq 2, 2 \leq x \leq 4, 4 \leq x \leq 8\ldots$ は倍率の関係に有効である．
 
 ```Ruby
 # t2: 1.0 <= x <= 2.0
