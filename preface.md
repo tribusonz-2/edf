@@ -203,7 +203,7 @@ pp t4.map{|x| 16.divmod(x)}
 |基数|xとの相補|xの最大公約数と最小公倍数|
 |近接整数|床関数|天井関数|
 |分解公式|分解能と分解率|商と剰余|
-|根|$\log(\left\lfloor 1 \right\rfloor)=0$|$e^{\left\lceil 0 \right\rceil}\therefore\phi$|
+|根|$\log(\left\lfloor 1 \right\rfloor)=0$|$0^{\left\lceil 0 \right\rceil}\therefore\phi$|
 |円の球状|累乗|三角|
 |スフィア|ある|ない|
 |解析学|積分|微分|
