@@ -96,6 +96,6 @@ $$\log^{\prime}(x)\subseteq (ab)= \log_b(\frac{1}{a})+\log_b(a)=0$$
 
 $$\log(x)=-\log(\frac{1}{x})$$
 
-　が成り立つ．相補はあらゆるところで収束する．もし値域 *range number* を数値計算で条件数 *conditional number*  に満足させることを考えるなら，解析接続 *analytic continuation* する幅はぐんと広がることになる．  
+　が成り立つ．相補はいたるところで収束する．もし値域 *range number* を数値計算で条件数 *conditional number*  に満足させることを考えるなら，解析接続 *analytic continuation* する幅はぐんと広がることになる．  
 
 (執筆中)  
