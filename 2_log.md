@@ -95,6 +95,6 @@ $$\log(\frac{1}{x})+\log(x)=0$$
 
 $$\log(x)=-\log(\frac{1}{x})$$
 
-　が成り立つ．  
+　が成り立つ．もし値域 *range number* を数値計算で条件数 *conditional number*  に満足させることを考えるなら，解析接続 *analytic continuation* する幅はぐんと広がる．  
 
 (執筆中)  
