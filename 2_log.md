@@ -89,11 +89,11 @@ $$\log_{10}(1/1.1111) \approx -0.045753147594141\ldots$$
 
 　この方程式は  
 
-$$\log(\frac{1}{x})+\log(x)=0$$
+$$\log\prime((\frac{1}{x})+\log\prime(x)=0$$
 
 　に満足し，すると $x$ は恒等式 *identity* にあるのだから，移項すると  
 
-$$\log(x)=-\log(\frac{1}{x})$$
+$$\log((x)=-\log(\frac{1}{x})$$
 
 　が成り立つ．もし値域 *range number* を数値計算で条件数 *conditional number*  に満足させることを考えるなら，解析接続 *analytic continuation* する幅はぐんと広がる．  
 
