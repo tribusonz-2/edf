@@ -90,7 +90,7 @@ $$\log_{10}(1/1.1111) \approx -0.045753147594141\ldots$$
 　逆元定理からすると，この相補は本来奇関数 *odd function* であろう．  
 　この方程式は  
 
-$$\log^{\prime}(x)\subseteq (b)= \log_b(\frac{1}{x})+\log_b(x)=0$$
+$$\log^{\prime}(x)\subseteq (ab)= \log_b(\frac{1}{a})+\log_b(a)=0$$
 
 　に満足し，すると $x$ は恒等式 *identity* にあるのだから，移項すると  
 
