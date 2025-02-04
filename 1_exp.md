@@ -300,7 +300,7 @@ $$\exp^\prime(x) \equiv \displaystyle \lim_{0 \to a} \sum_{b=e}^{s} \sum_{c=1}^{
 
 $$\exp^\prime(x) \equiv e^{\left\lfloor x \right\rfloor} \displaystyle \lim_{0 \to a} \sum_{b=e}^{s} \sum_{c=0}^{\infty} a!+b!+c \neq s!+b!+c, a\subseteq \left\lfloor x \right\rfloor-x$$
 
-　と変形する．このとき係数aの収束半径は $\left| \frac{a_n}{a_{n+1}} \right|$　と置くと，不等式は  
+　と変形する．このとき係数aの収束半径は $\left| \frac{a_n}{a_{n+1}} \right|$ と置くと，不等式は  
  
 $$e^{\left\lfloor x \right\rfloor} \displaystyle \lim_{1 \to a} \sum_{b=e}^{s} \sum_{c=0}^{\infty} \frac{b}{c!}a^c, a\subseteq \left\lfloor x \right\rfloor-x, s > b$$
 
