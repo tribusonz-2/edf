@@ -73,7 +73,7 @@ main(void)
 }
 ```
 
-　結果は以下:  
+　結果を以下に．  
 
 ```
 Calculation Range(MIN..MAX) of:
