@@ -369,12 +369,12 @@ e.to_f #=> 2.7182539682539684
 int
 main(void)
 {
-    double e = 1, a = 1;
+    double e = 0, a = 1;
     int n = 0;
 
     do {
-        a /= ++n;
         e += a;
+        a /= ++n;
     } while (a > DBL_EPSILON);
 
     printf("e = %*.*g\n", DBL_DIG, DBL_DIG, e);
@@ -387,6 +387,34 @@ main(void)
 e = 2.71828182845905
 ```
 
+　数値計算上，精度を保てばよいので，quadmathでも応用できる．
+
+```CXX
+#include <stdio.h>
+#include <quadmath.h>
+
+int
+main(void)
+{
+    char s[128];
+    __float128 a = 1.Q, e = 0.Q;
+    int n = 0;
+
+    do {
+        e += a; a /= ++n;
+    } while (a > FLT128_EPSILON);
+
+    quadmath_snprintf(s, 128, "%.*Qf", FLT128_DIG, e);
+    printf("e = %s\n", s);
+}
+```
+
+　結果を以下に．
+
+```
+e = 2.718281828459045235360287471352663
+```
+
 　蛇足ながら，以下は奥村先生の級数展開である．奥村先生の場合は係数 $a$ が情報落ちして0になるまで計算し，解 *solve* がこれ以上加算されないなら収束と判断する．  
 
 ```CXX
@@ -396,13 +424,13 @@ e = 2.71828182845905
 int
 main(void)
 {
-    double prev, e = 1, a = 1;
+    double prev, e = 0, a = 1;
     int n = 0;
 
     do {
         prev = e;
-        a /= ++n;
         e += a;
+        a /= ++n;
     } while (e != prev);
 
     printf("e = %*.*g\n", DBL_DIG, DBL_DIG, e);
