@@ -387,6 +387,28 @@ main(void)
 e = 2.71828182845905
 ```
 
+　蛇足ながら，以下は奥村先生の級数展開である．奥村先生の場合は係数 $a$ が情報落ちして0になるまで計算し，解 *solve* がこれ以上加算されないなら収束と判断する．  
+
+```CXX
+#include <stdio.h>
+#include <float.h>
+
+int
+main(void)
+{
+    double prev, e = 1, a = 1;
+    int n = 0;
+
+    do {
+        prev = e;
+        a /= ++n;
+        e += a;
+    } while (e != prev);
+
+    printf("e = %*.*g\n", DBL_DIG, DBL_DIG, e);
+}
+```
+
 ---
 
 　以下に`Python`と`Ruby`での適用例を示す．`Python`は今では`C/C++`に変わるほどのメジャーな言語であり，草創期には筆者が「迷える羊たちよ，Pythonを使うべし」とした代表的なグルー言語の一つである．  
