@@ -315,6 +315,41 @@ $$\displaystyle \sum_{c=0}^{\infty} \frac{1}{c!}x^n = 1+x+\frac{x^2}{2!}+\frac{x
 $$\exp^\prime(x)\equiv s\subseteq (ab)=a^{\text{IntegerPart}(x)}\cdot\exp_b^{\text{FractionPart}(x)},a=(\exp\therefore e|\exp2\therefore 2), b=(\exp_e\therefore1|\exp_2\therefore\ln{2})$$
 
 　と置くことができる．これはオイラーの公式 $e^{\imath\theta}=\cos\theta+\imath\sin\theta$ が正則として満足であることが分かる．  
+　オイラーの公式が指数分解によって満足することは，ガンマ関数が三角関数によって満足することと等価である．これは三角関数の分解公式で詳しく述べたい．  
+
+　さて，指数関数の定数項がガンマ関数によって満足するのであれば，定数 $e$ の級数展開
+
+ $$\begin{array}{rcl}
+e & = & \sum_{n=0}^{\infty} \frac{1}{n!} \\
+ & \cong &  \frac{1}{1}+\frac{1}{1}+\frac{1}{2}+\frac{1}{6}+\frac{1}{24}+\cdots
+\end{array}$$
+
+　この分母は逆数的に一意の極限を持ち続けていることが分かる．これを応用すれば，以下のようなCプログラムを書くことができる．  
+
+```CXX
+#include <stdio.h>
+#include <float.h>
+
+int
+main(void)
+{
+    double e = 1, a = 1;
+    int n = 0;
+
+    do {
+        a /= ++n;
+        e += a;
+    } while (a > DBL_EPSILON);
+
+    printf("e = %*.*g\n", DBL_DIG, DBL_DIG, e);
+}
+```
+
+　結果を以下に．  
+
+```
+e = 2.71828182845905
+```
 
 　以下に`Python`と`Ruby`での適用例を示す．  
 　対数や虚数の根を証明するなど，この公式は物理学に強い．この学問は質量物理学 *mass physics* と名付け，未だ整理中である．しかし，いざ初等関数に還元されるとなると驚くほどシンプルである．  
