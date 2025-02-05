@@ -131,14 +131,55 @@ plot [0:5] f(x)
 
 [log2(x) mod 1](https://ja.wolframalpha.com/input?i=log2%28x%29+mod+1)
 
-　複素解析を以下に．幾何学な模様にはアームが何本か伸びている．なんらか剰余類があると思われる．  
+　複素解析を以下に．Gnuplotでは複素平面も描写が可能であり，必要な関数を定義すればこれを等高線{コンター}として得られる．Gnuplotには二進対数はないので独自に定義する．  
 
-[3dplot log2(x+iy) mod 1](https://ja.wolframalpha.com/input?i=3dplot+log2%28x%2Biy%29+mod+1)
+```Gnuplot
+set isosamples 50                                  
+set palette cubehelix start 2 cycles 0 saturation 3
 
-　これを考えると，恐らくこの公式にも素数が隠れているだろう．ガンマ関数にも素数が $\ln(p!) = \ln((p-1)!) + \ln(p), p  \notin \mathbb{P}$ のように隠れているほどだ．以下 $\log\prime\prime(x) \subseteq (ab)$ のような関数に違いない．  
+i={0,1}
+cfloor(z) = floor(real(z))+i*floor(imag(z))
+cmod(x,p) = x-p*cfloor(x/p)
+
+log2(x) = log(x)/log(2)
+```
+
+以下をタイプする．  
+
+```Gnuplot
+splot real(cmod(log2(x+i*y),1)) w pm3d
+splot imag(cmod(log2(x+i*y),1)) w pm3d
+```
+
+![log2mod1real](log2mod1real.png)
+![log2mod1imag](log2mod1imag.png)
+
+　実数部ではスラスターのようなものが，虚数部では幾何学な模様にはアームが何本か伸びている．なんらか剰余類があると思われる．  
+
+　等高線を得るには，以下をタイプする．
+
+```Gnuplot
+set isosamples 50,50
+set view map
+set size square
+set key right outside
+```
+
+![contour_log2mod1real](contour_log2mod1real.png)
+![contour_log2mod1imag](contour_log2mod1imag.png)
 
 　常用対数での複素解析を以下に．常用対数であると，もっとコアがむき出しになったような解析を得られる．恐らくラグランジュ・ポイントを求めるのにも役立つに違いない．  
 
+![log10mod1real](log10mod1real.png)
+![log10mod1imag](log10mod1imag.png)
+![contour_log10mod1real](contour_log10mod1real.png)
+![contour_log10mod1imag](contour_log10mod1imag.png)
+
+　Wolfram|Alphaでの解析結果を以下に．  
+
 [3dplot log10(x+iy) mod 1](https://ja.wolframalpha.com/input?i=3dplot+log10%28x%2Biy%29+mod+1)
+[3dplot log2(x+iy) mod 1](https://ja.wolframalpha.com/input?i=3dplot+log2%28x%2Biy%29+mod+1)
+
+　これを考えると，恐らくこの公式にも素数が隠れているだろう．ガンマ関数にも素数が $\ln(p!) = \ln((p-1)!) + \ln(p), p  \notin \mathbb{P}$ のように隠れているほどだ．以下 $\log\prime\prime(x) \subseteq (ab)$ のような関数に違いない．  
 
 (執筆中)  
