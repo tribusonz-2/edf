@@ -95,7 +95,8 @@ $$\log_{10}(1/1.1111) \approx -0.045753147594141\ldots$$
 
 　整数に符号を与えるものの，相補を保っていることが分かる．  
 
-　逆元定理からすると，この相補は本来奇関数 *odd function* であろう．  
+　無いものは全て不一致という逆元定理 $$\displaystyle \lim_{0 \to a} \sum_{b=e}^{s} a+b \neq s+b \neq e^{a}$$ からすると，この相補が与えているものは，全て有理関数 *rational function* である．  
+　そのゆえ，ここまで有理数として自明であるとすると，パリティは奇関数 *odd function* であるのは疑いようもない．  
 　この方程式は  
 
 $$\log^{\prime}(x)\subseteq (ab)= \log_b(\frac{1}{a})+\log_b(a)=0$$
