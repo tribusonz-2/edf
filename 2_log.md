@@ -121,6 +121,14 @@ plot [0:5] f(x)
 
 ![nth_factor](nth_factor.png)
 
+　ここでは本題から外れているため触れないが，解析接続したら，興味深い話題が尽きないほど出てきそうである．  
+　Wolfram|Alphaに診断してもらうと，以下のような解析結果を得られる．  
+
+[log2(x) mod 1](https://ja.wolframalpha.com/input?i=log2%28x%29+mod+1)
+
+　複素解析を以下に．複素平面における剰余類まで見えてきそうなほど幾何学な模様である．  
+
+[3dplot log2(x+iy) mod 1](https://ja.wolframalpha.com/input?i=3dplot+log2%28x%2Biy%29+mod+1)
 
 
 (執筆中)  
