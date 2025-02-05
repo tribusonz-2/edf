@@ -132,5 +132,8 @@ plot [0:5] f(x)
 
 　これを考えると，恐らくこの公式にも素数が隠れているだろう．ガンマ関数にも素数が $\ln(p!) = \ln((p-1)!) + \ln(p), p  \notin \mathbb{P}$ のように隠れているほどだ．以下 $\log\prime\prime(x) \subseteq (ab)$ のような関数に違いない．  
 
+　常用対数での複素解析を以下に．常用対数であると，もっとコアがむき出しになったような解析を得られる．恐らくラグランジュ・ポイントを求めるのにも役立つに違いない．  
+
+[3dplot log10(x+iy) mod 1](https://ja.wolframalpha.com/input?i=3dplot+log10%28x%2Biy%29+mod+1)
 
 (執筆中)  
