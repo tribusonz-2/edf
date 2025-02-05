@@ -131,7 +131,7 @@ plot [0:5] f(x)
 
 [log2(x) mod 1](https://ja.wolframalpha.com/input?i=log2%28x%29+mod+1)
 
-　複素解析を以下に．幾何学な模様にはアームが何本か伸びていて，あからさまに複素平面における剰余類まで見えてきそうなほどである．  
+　複素解析を以下に．幾何学な模様にはアームが何本か伸びている．なんらか剰余類があると思われる．  
 
 [3dplot log2(x+iy) mod 1](https://ja.wolframalpha.com/input?i=3dplot+log2%28x%2Biy%29+mod+1)
 
