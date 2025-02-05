@@ -130,5 +130,7 @@ plot [0:5] f(x)
 
 [3dplot log2(x+iy) mod 1](https://ja.wolframalpha.com/input?i=3dplot+log2%28x%2Biy%29+mod+1)
 
+　これを考えると，恐らくこの公式にも素数が隠れているだろう．ガンマ関数にも素数が $\ln(p!) = \ln((p-1)!) + \ln(p), p  \notin \mathbb{P}$ のように隠れているほどだ．以下 $\log\prime\prime(x) \subseteq (ab)$ のような関数に違いない．  
+
 
 (執筆中)  
