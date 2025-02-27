@@ -25,3 +25,4 @@ $$a^x=\displaystyle\lim_{n\to\infty}a^{x_n}$$
 
 　とする実用例がある．  
  
+(執筆中)
