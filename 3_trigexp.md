@@ -15,5 +15,13 @@ $$\cos(x)=\displaystyle\sum^\infty_{k=0}\frac{(-1)^k x^{2k}}{(2k)!}=1-\frac{1}{2
 
 　ある関数の範囲を限って積分し，その値を求めることを考えよう．これを定積分 *definite integral* という． $x$ がこれについて定積分を考えることができたのなら，それは変数として $x$ が関数にしたがっているということである．  
 　指数関数に従う全ての変数 $x$ が、そのようにして定積分を考えられるのであれば，実数全体がこの定積分に従うべきだろう．ところが指数には累乗根はないため，至って部分的である．累乗への式変形は $x$ が有理数にあるときに自明で，自然数 $m$ ， $n$ を用いて $x=\frac{m}{n}$ と表せる場合に $a^x=a^\frac{m}{n}=\sqrt[n]{a^m}$ と定義される．  
-　実数 $x$ について $a^x$ を定めるには，実数 $x$ に収束する有理数の列 $x_1, x_2, \cdots, x_n\cdots$ を定め， $\displaystyle\lim_{n\to\infty}x_n=x$ を用いて， $a^x=\displaystyle\lim_{n\to\infty}a^{x_n}$ とする実用例がある．  
+　実数 $x$ について $a^x$ を定めるには，実数 $x$ に収束する有理数の列 $x_1, x_2, \cdots, x_n\cdots$ を定め，
+ 
+$$\displaystyle\lim_{n\to\infty}x_n=x$$
+
+　を用いて，
+
+$$a^x=\displaystyle\lim_{n\to\infty}a^{x_n}$$
+
+　とする実用例がある．  
  
