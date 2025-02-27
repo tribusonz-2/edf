@@ -4,7 +4,7 @@
 
 　一般に，指数関数の級数は  
 
-$$e^x=\displaystyle\sum^{\infty}_{k=0}\frac{x^k}{k!} = 1+x+\frac{1}{2!}x^2+\frac{1}{3!}x^3+\frac{1}{4!}x^4+\cdots$$  
+$$e^x=\displaystyle\sum_{k=0}^\infty\frac{x^{-1+2k}(2k+x)}{(2k)!}=\displaystyle\sum^{\infty}_{k=0}\frac{x^k}{k!} = 1+x+\frac{1}{2!}x^2+\frac{1}{3!}x^3+\frac{1}{4!}x^4+\cdots$$  
 
 　と定義する．ここで $n!$ は階乗関数 *factorial function* である．三角関数の正弦・余弦の級数は  
 
