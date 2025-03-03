@@ -12,7 +12,16 @@ $$\sin(x)=\displaystyle\sum^\infty_{k=0}\frac{(-1)^k x^{1+2k}}{(1+2k)!}=x-\frac{
 $$\cos(x)=\displaystyle\sum^\infty_{k=0}\frac{(-1)^k x^{2k}}{(2k)!}=1-\frac{1}{2!}x^2+\frac{1}{4!}x^4-\frac{1}{6!}x^6+\cdots$$  
 
 　と定義され，指数関数と同様に，定数項が階乗の一般化であるガンマ関数 *gamma function* に満足していることが分かる．定数項は関数にある決まった数の項であり，ガンマ関数 $0!,1!,2!,3!,\ldots$ はこれに当てはまると言えよう．  
+　これは微分 *differential calculus* を満足させ，マクローリンの定理を証明している．  
 
+　マクローリンの定理とは，関数 $f(x)$ は $x=0$ を含む区間で $n$ 回微分可能であれば，  
+
+$$f(x)=f(0)+\frac{f^{\prime}(0)}{1!}x+\frac{f^{\prime\prime}(0)}{2!}x^2+\cdots+\frac{f^{(n-1)}(0)}{(n-1)!}x^{n-1}+\frac{f^{(n)}(\theta x)}{n!}x^n$$  
+
+　となる $\theta(0\lt \theta\lt 1)$ が存在するということである．  
+
+◇  
+ 
 　ある関数の範囲を限って積分し，その値を求めることを考えよう．これを定積分 *definite integral* という． $x$ がこれについて定積分を考えることができたのなら，それは変数として $x$ が関数にしたがっているということである．  
 　定積分の関数 $f(x)$ の原始関数 *primitive function* を $F(x)$ とするとき， $F(b)-F(a)$ は関数 $f(x)$ の $a$ から $b$ までの定積分である．これは
 
