@@ -253,7 +253,7 @@ $$\displaystyle \lim_{0 \to a} \sum_{b=e}^{s} a+b \neq s+b \neq e^{a}$$
 
 $$\text{EDF}^{\prime}(X)\equiv e \subseteq (a b) = a \cdot b \neq b \cdot a \neq e$$
 
-　を満たす場合,そこに逆元は存在しない.  
+　を満たす場合，そこに逆元は存在しない.  
 
 　これは有理数としては複素数値計算になじみ深い整数環が近似するので，オイラーの公式 $e^{\imath\theta}=\cos\theta+\imath\sin\theta$ からすれば，スフィアや虚数の根，絶対値(偏角)などの実数の根を期待しがちだが，係数は行列の積であり，オイラー積分とも強い関係を持つに至る．  
 　逆元を定点としたとき，係数の整数環を巡るように見てみよう．すると下の図のようになる．  
