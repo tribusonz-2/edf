@@ -42,6 +42,21 @@ $$\cos(x)=\displaystyle\sum^\infty_{k=0}\frac{(-1)^k x^{2k}}{(2k)!}=1-\frac{1}{2
 $$f(x)=f(0)+\frac{f^{\prime}(0)}{1!}x+\frac{f^{\prime\prime}(0)}{2!}x^2+\cdots+\frac{f^{(n-1)}(0)}{(n-1)!}x^{n-1}+\frac{f^{(n)}(\theta x)}{n!}x^n$$  
 
 　となる $\theta(0\lt \theta\lt 1)$ が存在するということである．  
+
+　マクローリン級数 *maclaurin series* として複素指数関数  
+
+$$e^z=\displaystyle\sum^{\infty}_{n=0}\frac{z^n}{n!}$$  
+
+　を定義しよう．指数・正弦・余弦を同時に計算していることになるので  
+
+$$e^z=e^{x+\imath y}=e^x(\cos y\ +\imath \sin y)$$  
+
+　を得る．これは， $x=0$ とすると，次のような式になる．  
+
+$$e^{\imath\theta}(\cos \theta +\imath \sin \theta)$$
+
+　これは有名なオイラーの公式である．
+
 　分解公式は微分・積分のいずれにも導入可能であるが，指数関数の章で述べた定理からすると，指数に導入できる積分は部分積分 *integration by parts* のみである．また，実数の根や虚数の根はそれの複素係数の中で現れ，有理関数の積分で明白なものである．  
 　三角関数には虚数の根 $\imath=\sqrt{-1}$ が現れるため逆元は存在するだろう．とはいえ，無限大において発散している恐れもある．  
  
