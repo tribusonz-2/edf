@@ -540,3 +540,6 @@ module Math
   module_function :exp, :exp2, :expxt
 end
 ```
+
+参考文献:
+新体系 大学数学 入門の教科書 上・下 | 芳沢 光雄 (著) | ブルーバックス | 2023.5.12 (2刷)
