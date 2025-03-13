@@ -76,7 +76,7 @@ e^{-\imath\theta} & : \cos\theta-\imath\sin\theta
 
 　の変形を得る．  
 
-　初等関数に還元されるところに分解公式は至ってシンプルな公式になることは前章で示された．オイラーの公式もそうだろう．例えば $-\imath\sin(\imath z)=\sinh(z)$ な双曲線関数 *hyperbolic function* は，マクローリンの定理を経て求めることができる．
+　初等関数に還元されるところに分解公式は至ってシンプルな公式になることは前章で示された．オイラーの公式もそうだろう．例えば $-\imath\sin(\imath z)=\sinh(z)$ な双曲線関数 *hyperbolic function* は，マクローリンの定理で証明は可能である．  
 
 $$\sinh(z)=\displaystyle\sum^\infty_{k=0} \frac{x^{1+2k}}{(1+2k)!}=z+\frac{z^3}{3!}+\frac{z^5}{5!}+\frac{z^7}{7!}+\cdots$$
 $$\cosh(z)=\displaystyle\sum^\infty_{k=0} \frac{x^{2k}}{(2k)!}=1+\frac{z^2}{2!}+\frac{z^4}{4!}+\frac{z^6}{6!}+\cdots$$
