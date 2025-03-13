@@ -55,6 +55,27 @@ $$e^z=e^{x+\imath y}=e^x(\cos y\ +\imath \sin y)$$
 $$e^{\imath\theta}=(\cos \theta +\imath \sin \theta)$$
 
 　これが有名な**オイラーの公式**である．  
+
+　正弦・余弦をオイラーの公式によって微分に満足させることを考えるのであれば，
+
+$$\left\lbrace \begin{array}{cl}
+\cos\theta & : \frac{e^{\imath\theta}+e^{-\imath\theta}}{2} \\
+\sin\theta & : \frac{e^{\imath\theta}+e^{-\imath\theta}}{2\imath}
+\end{array} \right.$$  
+
+　ここで $-\imath\theta$ は  
+
+$$e^{-\imath\theta}=(\cos \theta -\imath \sin \theta)$$  
+
+　であり，オイラーの公式は
+
+$$\left\lbrace \begin{array}{cl}
+e^{\imath\theta} & : \cos\theta+\imath\sin\theta \\
+e^{-\imath\theta} & : \cos\theta-\imath\sin\theta
+\end{array} \right.$$  
+
+　を得る．  
+
 　初等関数に還元されるところに分解公式は至ってシンプルな公式になることは前章で示された．オイラーの公式もそうだろう．例えば $-\imath\sin(\imath z)=\sinh(z)$ な双曲線関数 *hyperbolic function* は，マクローリンの定理を経て求めることができる．
 
 $$\sinh(z)=\displaystyle\sum^\infty_{k=0} \frac{x^{1+2k}}{(1+2k)!}=z+\frac{z^3}{3!}+\frac{z^5}{5!}+\frac{z^7}{7!}+\cdots$$
