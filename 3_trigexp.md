@@ -74,7 +74,7 @@ e^{\imath\theta} & : \cos\theta+\imath\sin\theta \\
 e^{-\imath\theta} & : \cos\theta-\imath\sin\theta
 \end{array} \right.$$  
 
-　の変形を得る．  
+　の変形を得る．この変形は数値計算では便利なので覚えておくとよい．  
 
 　初等関数に還元されるところに分解公式は至ってシンプルな公式になることは前章で示された．オイラーの公式もそうだろう．例えば $-\imath\sin(\imath z)=\sinh(z)$ な双曲線関数 *hyperbolic function* は，マクローリンの定理で証明は可能である．  
 
