@@ -60,7 +60,7 @@ $$e^{\imath\theta}=(\cos \theta +\imath \sin \theta)$$
 
 $$\left\lbrace \begin{array}{cl}
 \cos\theta & : \frac{e^{\imath\theta}+e^{-\imath\theta}}{2} \\
-\sin\theta & : \frac{e^{\imath\theta}+e^{-\imath\theta}}{2\imath}
+\sin\theta & : \frac{e^{\imath\theta}-e^{-\imath\theta}}{2\imath}
 \end{array} \right.$$  
 
 　 $e^{-\imath\theta}$ は  
