@@ -56,7 +56,7 @@ $$e^{\imath\theta}=(\cos \theta +\imath \sin \theta)$$
 
 　これが有名な**オイラーの公式**である．  
 
-　正弦・余弦をオイラーの公式によって微分に満足させることを考えるのであれば，
+　正弦・余弦をオイラーの公式によって微分方程式に満足させることを考えるのであれば，
 
 $$\left\lbrace \begin{array}{cl}
 \cos\theta & : \frac{e^{\imath\theta}+e^{-\imath\theta}}{2} \\
