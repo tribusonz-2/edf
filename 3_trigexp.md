@@ -63,7 +63,7 @@ $$\left\lbrace \begin{array}{cl}
 \sin\theta & : \frac{e^{\imath\theta}+e^{-\imath\theta}}{2\imath}
 \end{array} \right.$$  
 
-　ここで $-\imath\theta$ は  
+　 $e^{-\imath\theta}$ は  
 
 $$e^{-\imath\theta}=(\cos \theta -\imath \sin \theta)$$  
 
@@ -74,7 +74,7 @@ e^{\imath\theta} & : \cos\theta+\imath\sin\theta \\
 e^{-\imath\theta} & : \cos\theta-\imath\sin\theta
 \end{array} \right.$$  
 
-　を得る．  
+　の変形を得る．  
 
 　初等関数に還元されるところに分解公式は至ってシンプルな公式になることは前章で示された．オイラーの公式もそうだろう．例えば $-\imath\sin(\imath z)=\sinh(z)$ な双曲線関数 *hyperbolic function* は，マクローリンの定理を経て求めることができる．
 
