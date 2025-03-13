@@ -40,7 +40,7 @@ $$\cos(x)=\displaystyle\sum^\infty_{k=0}\frac{(-1)^k x^{2k}}{(2k)!}=1-\frac{1}{2
 
 $$f(x)=f(0)+\frac{f^{\prime}(0)}{1!}x+\frac{f^{\prime\prime}(0)}{2!}x^2+\cdots+\frac{f^{(n-1)}(0)}{(n-1)!}x^{n-1}+\frac{f^{(n)}(\theta x)}{n!}x^n$$  
 
-　となる $\theta(0\lt \theta\lt 1)$ が存在するということである．一般にはテイラーの定理が用いられるが，テイラーの定理は $z=0$ を包括を明示しないことにニュアンスがある．  
+　となる $\theta(0\lt \theta\lt 1)$ が存在するということである．一般にはテイラーの定理が用いられるが，テイラーの定理は $z=0$ の包括が明示にないといったニュアンスがある．  
 
 　マクローリン級数 *maclaurin series* として複素指数関数  
 
