@@ -67,7 +67,7 @@ $$\left\lbrace \begin{array}{cl}
 
 $$e^{-\imath\theta}=(\cos \theta -\imath \sin \theta)$$  
 
-　であり，オイラーの公式は
+　であり，オイラーの公式はディリクレ指標を用いて  
 
 $$\left\lbrace \begin{array}{cl}
 e^{\imath\theta} & : \cos\theta+\imath\sin\theta \\
