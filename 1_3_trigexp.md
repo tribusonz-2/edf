@@ -76,12 +76,30 @@ e^{-\imath\theta} & : \cos\theta-\imath\sin\theta
 
 　の変形を得る．この変形は数値計算では便利なので覚えておくとよい．また共役複素数 *conjugate* を用いて $e^{-\imath\theta} =\overline{e^{\imath\theta}}$ とすれば求めるのに二度も計算せずに済む．(実数部では $e^{-z} = 1/e^z$ も同様である)  
 
-　初等関数に還元されるところに分解公式は至ってシンプルな公式になることは前章で示された．オイラーの公式もそうだろう．例えば $-\imath\sin(\imath z)=\sinh(z)$ な双曲線関数 *hyperbolic function* は，マクローリンの定理で証明は可能である．  
+　オイラーの公式が示された当初は，分解公式に示されるような初等関数への還元について，多くの場合，A.M.ルジャンドル，C.F.ガウスらによる一般化 *generalization* のほうが目立っている．すなわち，オイラーの公式から得られる式は，オイラーの公式の一般化と言える．また，変数から虚数を省いた  
+
+$$\sinh z=\frac{e^z-e^{-z}}{2},
+\cosh z=\frac{e^z+e^{-z}}{2},
+\tanh z=\frac{\sinh z}{\tanh z}$$
+
+　は双曲線関数 *hyperbolic function* である．
+　これらに $x^{x+iy}=e^x(\cos y+\imath \sin y)$ を代入すると，以下の恒等式 *identity* を得ることができる．  
+
+$$\begin{array}{rcl}
+\sin(x+\imath y) & = & \sin x \cosh y + \imath \cos x \sinh y, \\
+\cos(x+\imath y) & = & \cos x \cosh y - \imath \sin x \sinh y, \\
+\tan(x+\imath y) & = & (\sin 2x + \imath \sinh 2y) / (\cos 2x + \cosh 2y), \\
+\sinh(x+\imath y) & = & \sinh x \cos y + \imath \cosh x \sin y, \\
+\cosh(x+\imath y) & = & \cosh x \cos y + \imath \sinh x \sin y, \\
+\tanh(x+\imath y) & = & (\sinh 2x + \imath \sin 2y) / (\cosh 2x + \cos 2y)
+\end{array}$$
+
+
+　ここで双曲線 *hyperbola* とは，例えば $\sqrt{x^2-1}$ などによって幾何学的に得られる正負の相対であるような曲線をいう．定理からすると，三角関数の双曲線を得たかのようなバージョンであることを確認できる．  
+　級数では以下のように定義される．  
 
 $$\sinh(z)=\displaystyle\sum^\infty_{k=0} \frac{x^{1+2k}}{(1+2k)!}=z+\frac{z^3}{3!}+\frac{z^5}{5!}+\frac{z^7}{7!}+\cdots$$
 $$\cosh(z)=\displaystyle\sum^\infty_{k=0} \frac{x^{2k}}{(2k)!}=1+\frac{z^2}{2!}+\frac{z^4}{4!}+\frac{z^6}{6!}+\cdots$$
-
-　ここで双曲線 *hyperbola* とは，例えば $\sqrt{x^2-1}$ などによって幾何学的に得られる正負の相対であるような曲線をいう．定理からすると，三角関数の双曲線を得たかのようなバージョンであることを確認できる．  
 
 　分解公式は微分・積分のいずれにも導入可能であるが，定理からすると，指数に導入できる積分は部分積分 *integration by parts* のみである．また，実数の根や虚数の根はそれの複素係数の中で現れ，有理関数の積分で明白なものである．  
 　三角関数には虚数の根 $\imath=\sqrt{-1}$ が現れるため逆元は存在するだろう．とはいえ，無限大において発散している恐れもある．  
