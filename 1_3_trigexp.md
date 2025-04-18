@@ -82,7 +82,7 @@ $$\sinh z=\frac{e^z-e^{-z}}{2},
 \cosh z=\frac{e^z+e^{-z}}{2},
 \tanh z=\frac{\sinh z}{\tanh z}$$
 
-　は双曲線関数 *hyperbolic function* である．
+　は双曲線関数 *hyperbolic function* である．  
 　これらに $x^{x+iy}=e^x(\cos y+\imath \sin y)$ を代入すると，以下の恒等式 *identity* を得ることができる．  
 
 $$\begin{array}{rcl}
