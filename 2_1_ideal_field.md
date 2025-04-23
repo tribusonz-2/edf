@@ -9,7 +9,7 @@ $\frac{1}{2^2}+\frac{1}{2^3}+\frac{1}{2^4}+\frac{1}{2^5}+\frac{1}{2^6}+\frac{1}{
 
 　と無限等比級数 *infinite geometric series* に見られることがある．  
 　こうした考えは，この公式では形式的べき級数環 *formal power series rings* と関係を持つことがわかっている．ただの多項式環と見ると，実に規則性を持っている．(ただし規則によっては途中で発散するものもある)  
-　絶対収束 *absolutely convergence* よりは条件収束 *conditional convergence* に変数の現れを持ち，その変数を $n$ とすると，それは有限個 * finite number* しか存在しない．こうした“中途半端”な部分和 *partial sum* が連続して現れることで，分解公式は有限和 *finite sum* に有界 *bounded set* である．この体を $\text{EDF}^\prime F$ と定義すると，有限次元 *finite-dimensional* $V$ は部分和の集合を意味するものになる．この体はp進数 *p-adic numbers* と等価であり，実際にp進イデアル体にも分解公式の変数が見えることがある． 　
+　絶対収束 *absolutely convergence* よりは条件収束 *conditional convergence* に変数の現れを持ち，その変数を $n$ とすると，それは有限個 *finite number* しか存在しない．こうした“中途半端”な部分和 *partial sum* が連続して現れることで，分解公式は有限和 *finite sum* に有界 *bounded set* である．この体を $\text{EDF}^\prime F$ と定義すると，有限次元 *finite-dimensional* $V$ は部分和の集合を意味するものになる．この体はp進数 *p-adic numbers* と等価であり，実際にp進イデアル体にも分解公式の変数が見えることがある． 　
 
 　この公式を発見した当初は，先述の様子と対数関数が混在したものであった．基数相補法 *radix complementation method* は今でこそ簡素であるものの，発見当初の変数は以下のCプログラムのように複雑を極めた．  
 
